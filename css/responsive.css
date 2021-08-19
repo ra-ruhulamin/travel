@@ -125,11 +125,21 @@
         padding: 1px 8px;
         margin: 0 2px;
         background-color: rgba(255, 0, 0, 0.274);
-    }    
+    } 
+    .Book-op{
+        padding: 20px;
+    
+    
+    }   
+    .first-b-op-b{
+        padding-left: 20px;
+    }
+    
     .Review h1{
         font-size: 1.5rem;
     
     }
+
     .Review h1 span{
         line-height: 0;
         padding: 1px 8px;
