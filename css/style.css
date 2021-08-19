@@ -701,8 +701,6 @@ margin-right: 20px
     justify-content: space-evenly;
     flex-wrap: wrap;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.432);
-    padding: 20px;
-
 }
 
 .first-b-op-a{
@@ -768,8 +766,8 @@ margin-right: 20px
 /* ---sections-6  */
 
 .Review{
-    max-width: 1280px;
-    margin: 50px auto;
+    max-width: 1000px;
+    margin: 50px auto 100px auto;
 }
 
 .Review h1{
@@ -778,6 +776,7 @@ margin-right: 20px
     font-family: 'Baloo 2', cursive;
     line-height: 0;
     color: red;
+    margin-bottom: 100px;
 
 }
 .Review h1 span{
@@ -788,16 +787,13 @@ margin-right: 20px
 }
 
 .Review-op{
-    margin: 100px auto;
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1100px;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.432);
-    padding: 20px;
 
 }
 .Review-op .item{
+    margin: 0 auto;
     padding: 20px;
     width: 300px;
     cursor: pointer;
@@ -836,8 +832,6 @@ margin-right: 20px
 .Review-op .item div i{
     color: red;
 }
-
-
 
 
 
@@ -1117,14 +1111,14 @@ footer{
 .designer-icon i{
     margin: 5px 5px;
     padding: 8px;
-    background-color: crimson;
+    background-color: red;
     cursor: pointer;
     transition: all .5s;
     border-radius: 50%;
 }
 .designer-icon i:hover{
     background-color: #fff;
-    color: crimson;
+    color: red;
 }
 
 
