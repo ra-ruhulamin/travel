@@ -1,0 +1,168 @@
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .menu{
+        display: block;
+    
+    }
+    #closeMenu{
+        display: none;
+    }
+    .navlist{
+        left:-300px;
+        width: 250px;
+        height: 100vh;
+        top: 60px;
+        position: absolute;
+        background-color: #212529;
+        overflow: hidden;
+        padding-top: 50px;
+        border-top: 2px solid cadetblue;
+        transition: left linear .2s;
+        z-index: 100000000;
+    }
+    .navlist li{
+        width: 100%;
+        display: block;
+        padding: 8px 0;
+        padding-left: 40px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .nav-brand a{
+        font-size: 1.7rem;
+    
+    }
+    .menu i{
+        font-size: 1rem;
+    
+    }
+    .search-icon i{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .user-icon i{
+        font-size: 1rem;
+    }
+    .video-text h1{
+        font-size: 2.7rem;
+    }    
+    .video-text p{
+        font-size: 1rem;
+    }
+    
+    .Services h1{
+        font-size: 1.5rem;
+    
+    }
+    .Services h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    } 
+
+    .Packages h1{
+        font-size: 1.5rem;
+    
+    }
+    .Packages h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }   
+    
+    .Gallery h1{
+        font-size: 1.5rem;
+    
+    }
+    .Gallery h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    } 
+    
+    .Book h1{
+        font-size: 1.5rem;
+    
+    }
+    .Book h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }    
+    .Review h1{
+        font-size: 1.5rem;
+    
+    }
+    .Review h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }   
+    
+    .ContctUs h1{
+        font-size: 1.5rem;
+    
+    }
+    .ContctUs h1 span{
+        line-height: 0;
+        padding: 1px 8px;
+        margin: 0 2px;
+        background-color: rgba(255, 0, 0, 0.274);
+    }
+
+}
+
+
+
+@media screen  and (max-width:400px){
+    
+    .ContctUs-b-op-b form div{
+        max-width: 95vw;
+    }
+    .ContctUs-b-op-b form div input{
+        margin: 10px 0;
+        width: 100%;
+    
+    }.ContctUs-b-op-b form textarea{
+        width: 94%;
+        
+    }
+}
